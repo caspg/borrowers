@@ -14,7 +14,7 @@ export default Ember.Controller.extend({
         this.set('errorMessage', "Description can't be blank.");
       }
 
-      return true
+      return true;
     }
   }
 });
